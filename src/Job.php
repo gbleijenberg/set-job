@@ -13,10 +13,8 @@ class Job
 
     public function CleanUp($usname): string
     {
-        $usname = str_replace('ö', 'oe', $usname);
-        $usname = str_replace('Ö', 'oe', $usname);
-        $usname = str_replace('ü', 'ue', $usname);
-        $usname = str_replace('Ü', 'ue', $usname);
+        $usname = str_ireplace('ö', 'oe', $usname);
+        $usname = str_ireplace('ü', 'ue', $usname);
 
         return $usname;
     }
