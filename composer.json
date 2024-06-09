@@ -1,0 +1,19 @@
+{
+    "name": "gbleijenberg/set-job",
+    "description": "copy",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gbleijenberg\\SetJob\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gbleijenberg",
+            "email": "gbleijenberg@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
