@@ -1,4 +1,5 @@
 <?php
+
 namespace Gbleijenberg\SetJob;
 
 class Job
